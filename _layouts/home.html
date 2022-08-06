@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+  <div class="about" id="about">
+    <div class="uk-section uk-section-large uk-section-muted">
+      <div class="uk-container">
+        <div class="uk-card uk-card-small uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+          <div class="uk-card-media-left uk-cover-container">
+            <img src="images/doris.jpg" alt="" uk-cover>
+            <canvas width="400" height="400"></canvas>
+          </div>
+          <div>
+            <div class="uk-card-body">
+              <h3 class="uk-card-title">Hi, I'm Doris</h3>
+              {{ content }}
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
