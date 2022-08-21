@@ -1,7 +1,8 @@
 ---
 layout: post
+published: true
 title:  "How to change: the art (or science) of setting and achieving goals"
-date:   2021-08-21 15:28:56 +0100
+date:   2022-08-21 14:28:56 +0100
 categories: article
 ---
 
@@ -56,10 +57,11 @@ For non-physical goals, this somewhat translates into having a clear vision on h
 # Practical tips 
 
 - I use Obsidian for tracking my goals. In there, I have:
-	- A habit tracker for a visual representation of daily habits, of which a detailed guide can be found here: [Obsidian Habit & Mood Tracker | CssRepo](https://cssrepo.com/lib/obsidian-habit--mood-tracker)
+	- A habit tracker for a visual representation of daily habits, of which a detailed guide can be found here: [Obsidian Habit & Mood Tracker - CssRepo](https://cssrepo.com/lib/obsidian-habit--mood-tracker)
 	- And I include progress bars into my daily notes, using dataview.js, to get a sense of how I am doing in the grand scheme of things in completing the actions to complete my 12 week goals. I might go into details on how to build it in a future post.
 
-![[Screenshot 2022-08-21 at 14.42.05.png]]
+![Progress bar](/images/progress_bar.png)
+
 - Another nice and simple tracking (iPhone) app is [Momentum](https://momentum.cc/)
 
 # Links
