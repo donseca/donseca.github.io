@@ -7,7 +7,7 @@ categories: article
 ---
 
 
-# Introduction
+## Introduction
 
 Most people have goals in their live, that if achieved, will change them in one way or the other.
 
@@ -22,7 +22,7 @@ To overcome these challenges, there are insights from science to support us in i
 
 A combination of them is formulated in the key takeaways that follow in the next paragraphs.
 
-# Structure your year into 12 week sprints
+## Structure your year into 12 week sprints
 
 In her book "How to Change" Professor Katy Milkman talks about picking a meaningful date to start to change. Structuring your life in 12 week segments allows you to make use of this "Fresh Start Effect" at roughly four possible dates throughout the year (and saves you from training in a crammed gym on the 2nd of January). 
 
@@ -30,7 +30,7 @@ If you have left behind your school or university years, you might notice that t
 
 Lastly, sticking for 12 weeks with an activity allows you to have more frequent variety in the things you do. For instance, you might enjoy to change your sport goal from weight-training to running from one cycle to the other. Starting new things or coming back to them after a while allows you to have the repeated steep learning curve of beginnings and the satisfaction that comes with it. After all, the goals we set for ourselves are oftentimes only relevant to us, so why not make them as fun as possible.
 
-# To broadcast or not your goals to the public
+## To broadcast or not your goals to the public
 
 Sharing your goals with a friends or relatives might not actually be beneficial for achieving them. By the reactions and approvals you get by merely telling others, you might be already satisfied and therefore less driven to get into the action it takes to change in the pursuit of the goal.
 
@@ -40,7 +40,7 @@ For instance, the "Cash Commitment Devices" from "How to Change" can be used, wh
 
 Other soft commitments such as pledges can also be beneficial, with the remaining importance of attaching accountability, e.g. by public display of the pledge on social media.
 
-# How to effectively use visualisation
+## How to effectively use visualisation
 
 Interestingly, the use of vision boards seem to have similar effects than previously described process of telling people. Physiologically, they give you the (wrong) satisfaction of having achieved your goal, which in turn leaves you without the resources to get into action. 
 
@@ -54,7 +54,7 @@ Another interesting insight from this podcast episode is that for physical activ
 
 For non-physical goals, this somewhat translates into having a clear vision on how you are performing and "keeping the goal". Tracking progress can help to give you a more objective view, since your memory might be skewed to over- or underestimate your performance. 
 
-# Practical tips 
+## Practical tips 
 
 - I use Obsidian for tracking my goals. In there, I have:
 	- A habit tracker for a visual representation of daily habits, of which a detailed guide can be found here: [Obsidian Habit & Mood Tracker - CssRepo](https://cssrepo.com/lib/obsidian-habit--mood-tracker)
@@ -64,8 +64,9 @@ For non-physical goals, this somewhat translates into having a clear vision on h
 
 - Another nice and simple tracking (iPhone) app is [Momentum](https://momentum.cc/)
 
-# Links
+## Links
 - [Huberman Lab - Dr. Emily Balcetis: Tools for Setting & Achieving Goals](https://podcasts.apple.com/ch/podcast/huberman-lab/id1545953110?i=1000574615071)
 	- Podcast notes to the [episode](https://podcastnotes.org/huberman-lab/episode-83-dr-emily-balcetis-tools-for-setting-achieving-goals-huberman-lab/)
 - [The 12 Week Year](https://app.thestorygraph.com/books/b129fbf8-de98-4efe-abd2-c22013dd22a4) of which I would recommend to only read a summary.
 - [How to Change: The Science of Getting from Where You Are to Where You Want to Be](https://app.thestorygraph.com/books/dca7d378-26bb-4a5f-bb8a-954343e3ded0)
+- [Goal Setting: A Scientific Guide to Setting and Achieving Goals](https://jamesclear.com/goal-setting) for further reading.

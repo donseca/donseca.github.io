@@ -40,6 +40,8 @@ sass:
   sass_dir: _sass
   style: compressed
 
+google_analytics: "G-8X94J0E9NT"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
