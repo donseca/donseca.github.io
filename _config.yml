@@ -28,7 +28,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: donseca_
 github_username:  donseca
-linkedin_username: 
+linkedin_username: doris-fonseca-lima
 instagram_username: donseca
 
 # Build settings
@@ -39,8 +39,6 @@ plugins:
 sass:
   sass_dir: _sass
   style: compressed
-
-google_analytics: "G-8X94J0E9NT"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

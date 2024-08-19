@@ -2,7 +2,7 @@
 ---
 // custom sass css config
 
-/** Links */
+/** Links 
 
 a { color: #a3788a; text-decoration: none; }
 
@@ -11,15 +11,26 @@ a:visited { color: #a3788a; }
 a:hover { color: #111; text-decoration: underline; }
 
 a[href^="mailto:"] { color: #a3788a; }
-a[href^="mailto:"]:hover { color: #111; }
+a[href^="mailto:"]:hover { color: #111; }*/ 
 
 /** Site header */
 .site-header { border-top: 5px solid #424242; border-bottom: 1px solid #e8e8e8; min-height: 55.95px; position: relative; }
 
+/** Body */
+body {
+  /*background-color: #070707;*/
+  -webkit-font-smoothing: antialiased;
+  /* For WebKit-based browsers (e.g., Safari) */
+  -moz-osx-font-smoothing: grayscale;
+  /* For Firefox on macOS */
+  -o-font-smoothing: antialiased;
+  /* Generic fallback */
+}
 
-/** Site footer */
-.site-footer { border-top: 1px solid #af4242; padding: 30px 0; }
 
+  h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
 .site-title::before {
     content: url("/images/logo.svg");
     display: inline-block;
@@ -27,3 +38,4 @@ a[href^="mailto:"]:hover { color: #111; }
     width: 45px;
     top: 8px;
 }
+

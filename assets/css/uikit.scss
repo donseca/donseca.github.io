@@ -1,7 +1,20 @@
 ---
 ---
 // 1. Your custom variables and variable overwrites.
-$global-color: #000;
+$global-color: #cbd0b9 !default;
+$global-background:  #070707 !default;
+$background-color: #070707 !default;
+$global-primary-background: #070707;
+$global-link-hover-color: #0f6ecd;
+$global-secondary-background: #054f31 !default;
+$global-inverse-color: $global-color !default;
+$global-muted-background: #1d1d1d !default;
+$global-emphasis-color: #eee !default;
+
+$content-width:    1400px !important;
+
+$on-palm:          600px !default;
+$on-laptop:        1400px !default;
 
 //$brand-color:      #CCB2BD !default;
 //$global-font-family: 'Nanum Myeongjo', serif;
@@ -12,7 +25,15 @@ $global-color: #000;
 @import "mixins-theme.scss";
 
 // 3. Your custom mixin overwrites.
-// @mixin hook-card() { color: #000; }
+// @mixin hook-card() { color: #ba4545; }
+@media screen {
+    .wrapper {
+        max-width:-webkit-calc(1120px - (30px));
+        max-width: calc(1120px - (30px));
+        padding-right: 60px;
+        padding-left: 60px
+    }
+}
 
 // 4. Import UIkit.
 @import "uikit-theme.scss";
