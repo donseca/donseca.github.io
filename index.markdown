@@ -5,10 +5,8 @@
 layout: home
 ---
 
-🦾 I am a mechanical engineer working in tech consulting. 
+//&nbsp;&nbsp;&nbsp;I am a mechanical engineer working in tech consulting. 
 
-💡 I like to learn about data science, process mining and automation.
+//&nbsp;&nbsp;&nbsp;I like to learn about data science, process mining and automation.
 
-📖 Have a read on my thoughts in the [articles](articles) section. 
-
-​                    
+//&nbsp;&nbsp;&nbsp;Have a read on my thoughts in the [articles](articles) section.

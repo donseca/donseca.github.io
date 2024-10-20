@@ -7,20 +7,59 @@ layout: default
   <h1 class="page-heading">""</h1>
   {%- endif -%}-->
   <div id="about" class="uk-section uk-section-primary">
-    <div class="uk-container uk-container-large">
-      <div class="uk-card uk-card-small uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-        <div class="uk-card-media-left uk-cover-container">
+    <div class="uk-container uk-padding-remove">
+      <div class="uk-card uk-card-hover uk-card-small uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-padding" uk-grid>
+        <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
           <img src="images/doris.jpg" alt="" uk-cover>
           <canvas width="400" height="400"></canvas>
         </div>
-        <div>
+        <div class ="uk-flex uk-flex-middle">
           <div class="uk-card-body">
-            <h3 class="uk-card-title">Hi, I'm Doris</h3>
+            <h1 class="h1 uk-card-title">Hi, <span class="h1-text">I'm Doris</span></h1>
             {{ content }}
+            <p class="uk-margin-remove">
+              <a href = "/index.html#connection" class="uk-button uk-button-primary">Connect</a>
+            </p>
           </div>
         </div>
       </div>
 
     </div>
   </div>
-</div>
+
+  <div id="work" class="uk-section">
+    <div class="uk-container">
+      <h2 class="h2 uk-text-center">Work</h2>
+      <hr>
+      </hr>
+      <div class="uk-flex uk-flex-center">
+        <div class="uk-width-1-6">
+          <h4 class="h4 dates">06/23-</h4>
+        </div>
+        <div class="uk-width-1-2 uk-margin-left-small">
+          <h3 class="h3 margin-zero">AI Strategist</h3>
+          <p class="margin-zero">Enabling companies to leverage AI for innovation & process optimization</p>
+        </div>
+        <div class="uk-width-1-4 uk-margin-left">
+          <h4 class=" h4 margin-zero hashtag">#strategy #artificial intelligence #operating model</h4>
+        </div>
+      </div>
+        <hr>
+        </hr>
+        <div class="uk-flex uk-flex-center">
+          <div class="uk-width-1-6">
+            <h4 class="h4 margin-zero dates">10/21-<br />05/23</h4>
+          </div>
+          <div class="uk-width-1-2 uk-margin-left-small">
+            <h3 class="h3 margin-zero">Technology Consultant</h3>
+            <p class="margin-zero">Supported clients in their IT-transformation</p>
+          </div>
+          <div class="uk-width-1-4 uk-margin-left">
+            <h4 class="h4 margin-zero hashtag">#IT #transformation #change management</h4>
+          </div>
+        </div>
+        <hr>
+          </hr>
+      
+    </div>
+

@@ -2,23 +2,27 @@
 ---
 // custom sass css config
 
-/** Links 
+/*Links*/
 
-a { color: #a3788a; text-decoration: none; }
+a { color: #cbd0b9; text-decoration: underline; text-decoration-thickness: 1px}
 
-a:visited { color: #a3788a; }
+a:visited { color: #cbd0b9; text-decoration: underline; text-decoration-thickness: 1px}
 
-a:hover { color: #111; text-decoration: underline; }
+a:hover { color: #cbd0b9; text-decoration: underline dashed; text-decoration-thickness: 1px}
 
+/* unused
 a[href^="mailto:"] { color: #a3788a; }
-a[href^="mailto:"]:hover { color: #111; }*/ 
+a[href^="mailto:"]:hover { color: #111; } */
 
 /** Site header */
-.site-header { border-top: 5px solid #424242; border-bottom: 1px solid #e8e8e8; min-height: 55.95px; position: relative; }
+.uk-navbar-default {
+  text-transform: capitalize !important;
+}
 
 /** Body */
 body {
-  /*background-color: #070707;*/
+  background-color: #070707; 
+  color: #cbd0b9; 
   -webkit-font-smoothing: antialiased;
   /* For WebKit-based browsers (e.g., Safari) */
   -moz-osx-font-smoothing: grayscale;
@@ -27,10 +31,100 @@ body {
   /* Generic fallback */
 }
 
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
-  h1, h2, h3, h4, h5, h6 {
+.margin-zero {
+  margin: 0px;
+}
+
+.uk-grid-small-custom{
+  padding-left: 0px !important;
+}
+
+h5, h6 {
     font-family: Georgia, Times, "Times New Roman", serif;
 }
+
+.h1 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 4rem;
+  line-height: 1em;
+}
+
+.h1-text {
+  color: #dbb52e;
+}
+
+h2 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 3rem;
+  line-height: 1.1em;
+}
+
+.h2 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 3rem;
+  line-height: 1.1em;
+}
+
+h3 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 1.6rem;
+  line-height: 1em;
+}
+
+.h4 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  color: #dbb52e;
+  font-size: 1rem;
+}
+
+@media (max-width: 640px) {
+  body {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+  body {
+    font-size: 14px; 
+  }
+}
+
+@media (min-width: 961px) and (max-width: 1200px) {
+  body {
+    font-size: 16px; 
+  }
+}
+
+@media (min-width: 1201px) {
+  body {
+    font-size: 16px; 
+  }
+}
+
+/* For small screens (e.g., mobile phones) 
+@media (max-width: 600px) {
+  .h1 {
+    font-size: 2.5rem; 
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .h1 {
+    font-size: 3.5rem; 
+  }
+}
+
+@media (min-width: 1025px) {
+  .h1 {
+    font-size: 4.5rem; 
+  }
+} */
+
 .site-title::before {
     content: url("/images/logo.svg");
     display: inline-block;
@@ -38,4 +132,21 @@ body {
     width: 45px;
     top: 8px;
 }
+
+.uk-card {
+  border: 1px solid #cbd0b940;
+  box-shadow: 2px -1px 20px -12px #dbb52e;
+  border-radius: 12px;
+}
+
+.uk-card-media-right {
+  border-radius: 12px;
+}
+
+.uk-button-primary {
+    border-radius: .5rem;
+    text-transform: none;
+}
+
+
 

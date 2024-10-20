@@ -3,13 +3,16 @@
 // 1. Your custom variables and variable overwrites.
 $global-color: #cbd0b9 !default;
 $global-background:  #070707 !default;
-$background-color: #070707 !default;
+$background-color: #7f6d6d !default;
 $global-primary-background: #070707;
 $global-link-hover-color: #0f6ecd;
 $global-secondary-background: #054f31 !default;
 $global-inverse-color: $global-color !default;
 $global-muted-background: #1d1d1d !default;
 $global-emphasis-color: #eee !default;
+$navbar-background: #070707 !important;
+$inverse-button-primary-background: #dbb52e;
+$inverse-button-primary-color: #eee;
 
 $content-width:    1400px !important;
 
@@ -28,10 +31,10 @@ $on-laptop:        1400px !default;
 // @mixin hook-card() { color: #ba4545; }
 @media screen {
     .wrapper {
-        max-width:-webkit-calc(1120px - (30px));
-        max-width: calc(1120px - (30px));
-        padding-right: 60px;
-        padding-left: 60px
+        max-width:-webkit-calc(900px - (30px));
+        max-width: calc(900px - (30px));
+        
+        
     }
 }
 
